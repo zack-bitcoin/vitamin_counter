@@ -34,9 +34,12 @@ amount(N, [{Food, Amount}|Diet]) ->
 test() ->
     Diet = [
 	    {cabbage, 2},
-	    {pork, 2.5},
-	    {lard, 1.7},
+	    {pork, 1.5},
+	    {lard, 1.0},
 	    {corn, 1.7},
-	    {potato, 5}
+	    {potato, 5},
+	    {sunflower_oil, 0.7},
+	    {beans, 2},
+	    {carrot, 0.5}
 	   ],
     calculate(Diet).

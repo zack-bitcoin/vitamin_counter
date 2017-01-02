@@ -1,6 +1,6 @@
 0 A   3000 IU
 1 Thiamin = B1  1.2 mg
-2 riboflavin = b2  1.3 mg
+2 riboflavin =b2 1.3 mg
 3 niacin = b3  16 mg
 4 pantothenic acid = b5 5mg
 5 b6 1.3 mg
