@@ -1,5 +1,0 @@
--module(calculate).
--export([calculate/1, test/0]).
-
-calculate(Diet) ->
-    ok.
