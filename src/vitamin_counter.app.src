@@ -1,0 +1,12 @@
+{application, vitamin_counter,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { vitamin_counter_app, []}},
+  {env, []}
+ ]}.

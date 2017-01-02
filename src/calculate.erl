@@ -28,18 +28,7 @@ calculate_element(Min, N, Diet) ->
 amount(_, []) -> 0;
 amount(N, [{Food, Amount}|Diet]) ->
     F = data:Food(),
-    A = Amount * element(N, F),
+    A = Amount * element(N, F) / 100,
     A + amount(N, Diet).
 
-doit() ->
-    Diet = [
-	    {cabbage, 2},
-	    {pork, 1.55},
-	    {lard, 1.0},
-	    {corn, 1.7},
-	    {potato, 5},
-	    {sunflower_oil, 0.7},
-	    {beans, 2},
-	    {carrot, 0.5}
-	   ],
-    calculate(Diet).
+doit() -> calculate(diet:doit()).

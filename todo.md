@@ -1,2 +1,0 @@
-sweet potato
-oat
