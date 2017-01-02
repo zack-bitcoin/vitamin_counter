@@ -1,0 +1,2 @@
+-module(data).
+-export([cabbage/0, potato/0, corn/0, pork/0, lard/0]).
