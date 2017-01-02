@@ -11,4 +11,4 @@ start the program with this command:
 
 
 if you want to add more foods to the program, enter the data in src/data.erl.
-It should conform to the units in data/essential
+It should conform to the units in docs/essential.md
