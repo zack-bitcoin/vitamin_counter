@@ -1,5 +1,5 @@
 -module(calculate).
--export([calculate/1, test/0]).
+-export([calculate/1, doit/0]).
 
 calculate(Diet) ->
     E = data:essential(),
@@ -31,10 +31,10 @@ amount(N, [{Food, Amount}|Diet]) ->
     A = Amount * element(N, F),
     A + amount(N, Diet).
 
-test() ->
+doit() ->
     Diet = [
 	    {cabbage, 2},
-	    {pork, 1.5},
+	    {pork, 1.55},
 	    {lard, 1.0},
 	    {corn, 1.7},
 	    {potato, 5},
