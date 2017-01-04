@@ -32,7 +32,7 @@
 29 omega 3  250 mg
 30 omega 6  16 grams
 
-31 protein 50 grams
+31 protein 100 grams
 32 carbs  150 grams
 33 fat    160 grams
 
