@@ -1,3 +1,4 @@
+
 -module(calculate).
 -export([calculate/1, doit/0]).
 
@@ -35,7 +36,7 @@ calculate_element(Min, N, Diet) ->
 	A<Min -> 
 	    G = Min - A,
 	    io:fwrite(
-	      "defficiency of " ++ 
+	      "deficiency of " ++ 
 		  io_lib:format("~.1f",[G]) ++
 		  %integer_to_list(G) ++ 
 		  " / " ++ io_lib:format("~.1f",[Min-0.00001]) ++
@@ -43,7 +44,7 @@ calculate_element(Min, N, Diet) ->
 		  
 		  " of " ++ names:names(N-1) ++
 		  "\n");
-	Excess and (A > Min) ->
+	Excess ->
 	    G = A - Min,
 	    io:fwrite(
 	      "excess of " ++ 

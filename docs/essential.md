@@ -7,7 +7,7 @@
 6 b12 2.4 mcg
 7 biotin B7  30 mcg
 8 C asorbic acid  90 mg
-9 choline 550 mg
+9 choline 550 mg %or 1.2 g methionine + folate
 10 D 5 mcg
 11 E 15 mg
 12 folic acid 400 mgc

@@ -7,7 +7,7 @@
 6 0 mcg
 7
 8 0 mg
-9 66.4 mg
+9 66.4 mg %also 0.2 grams of methionine
 10 
 11 0.2 mg
 12 444 mcg
