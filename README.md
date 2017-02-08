@@ -1,4 +1,4 @@
-This program is for calculating vitamin deficiencies in your diet. So far, it only has about 7 foods programmed into it.
+This program is for calculating vitamin deficiencies in your diet. So far, it only has about 7 foods programmed into it. To run it, you first need Erlang installed.
 
 edit src/diet.erl to say how much of each food you eat in a day.
 
@@ -12,7 +12,7 @@ if you want to add more foods to the program, enter the data in src/data.erl.
 It should conform to the units in docs/essential.md
 
 
-Notes on Choline:
+Note on Choline:
 If your diet contains excess folate and methionine, then your liver can produce choline, and you possibly don't need dietary choline.
 Doctors aren't sure if dietary Choline is necessary, or good, or harmful.
 

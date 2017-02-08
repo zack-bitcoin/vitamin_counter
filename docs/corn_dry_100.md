@@ -1,7 +1,7 @@
 0 261 IU
 1 0.3 mg
 2 0.2 mg
-3 8.2 mg
+3 8.2 mg % 8.2 for nixtamalized corn. 0 for non-nixtamalized corn.
 4 1.6 mg
 5 1.1 mg
 6 0
