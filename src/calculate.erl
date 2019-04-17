@@ -32,6 +32,7 @@ calculate(N, E, Diet) ->
 calculate_element(Min, N, Diet) ->
     A = amount(N, Diet),
     Excess = false,
+    %Excess = true,
     if
 	A<Min -> 
 	    G = Min - A,

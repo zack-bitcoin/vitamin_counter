@@ -18,7 +18,7 @@ doit(13) -> "mcg";
 doit(14) -> "mg";
 doit(15) -> "mg";
 doit(16) -> "mcg";
-doit(17) -> "mcg";
+doit(17) -> "mg";
 doit(18) -> "mcg";
 doit(19) -> "mg";
 doit(20) -> "mg";
