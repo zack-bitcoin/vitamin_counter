@@ -6,15 +6,19 @@
 doit() -> 
     %all amounts are measured in grams per day.
     [
-     {beef_80_20, 200},
      {egg, 400},
+     %{egg, 250},
+     {beef_80_20, 200},
      {squash, 200},
-     {dry_split_peas, 80},
-     {cabbage, 80},
-     {sunflower_oil, 100},
-     {butter, 20},
-     {banana, 100},
+     %{dry_split_peas, 75},
+     {dry_split_peas, 40},
+     %{rice, 65},
+     {rice, 30},
+     {cabbage, 130},
+     {peanuts, 100},
+     {sesame, 20},
      {onion, 200},
-     %{cheese, 50},
-     {pumpkin_seeds, 30}
+     {pumpkin_seeds, 30},
+     {sunflower_oil, 130},
+     {avocado, 400}
     ].
